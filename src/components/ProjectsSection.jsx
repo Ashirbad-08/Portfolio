@@ -1,4 +1,5 @@
 import { projectTags } from '../data/portfolioData'
+import projectImage from '../assets/Gemini_Generated_Image_eyfibieyfibieyfi.png'
 import Icon from './Icon'
 import Reveal from './Reveal'
 import SectionHeading from './SectionHeading'
@@ -13,7 +14,7 @@ export default function ProjectsSection() {
         <Reveal>
           <article className="project-card featured">
             <div className="project-visual">
-              <img src="\src\assets\Gemini_Generated_Image_eyfibieyfibieyfi.png" alt="" />
+              <img src={projectImage} alt="" />
             </div>
             <div className="project-copy">
               <div className="project-title-row">

@@ -1,3 +1,5 @@
+import bachelorLogo from '../assets/1.jpg'
+import collegeLogo from '../assets/Logo.png'
 import Reveal from './Reveal'
 import SectionHeading from './SectionHeading'
 
@@ -8,7 +10,7 @@ export default function EducationSection() {
       <div className="education-list">
         <Reveal>
           <article className="education-card">
-            <div className="college-badge"><img src="\src\assets\Logo.png" alt="" /></div>
+            <div className="college-badge"><img src={collegeLogo} alt="" /></div>
             <div className="education-copy">
               <p className="mini-label"></p>
               <h3>Master of Computer Application</h3>
@@ -26,7 +28,7 @@ export default function EducationSection() {
         </Reveal>
         <Reveal>
           <article className="education-card">
-            <div className="college-badge"><img src="\src\assets\1.jpg" alt="" /></div>
+            <div className="college-badge"><img src={bachelorLogo} alt="" /></div>
             <div className="education-copy">
               <p className="mini-label"></p>
               <h3>Bachelor of Science</h3>
