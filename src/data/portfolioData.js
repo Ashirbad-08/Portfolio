@@ -24,3 +24,5 @@ export const timelinePoints = [
 ]
 
 export const projectTags = ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL']
+
+export const projectTags1 = ['React Js', 'Node Js', 'Express Js', 'MONGODB', 'Tailwind CSS', 'HTML', 'CSS', 'JavaScript']
